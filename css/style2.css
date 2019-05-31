@@ -1,0 +1,68 @@
+  
+#logoEmpresa{
+    display: inline-block;
+}
+
+
+#miniSo{
+    height: 55px;
+    width: 55px;
+}
+
+.form-group .form-control {
+    padding-left: 2.375rem;
+    border-radius: 1rem;
+}
+
+.form-group .form-control-icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.primero:after {
+	content: "|";
+	color: black;
+	display: inline-block;
+	font-size: 100%;
+	padding: 0 .5em;
+}
+
+.icono
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 18px;
+    margin-left: 0px;
+}
+
+.zoom{
+  transition: transform .3s;
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+#segunda {
+    margin-top: 70px;
+}
+
+.segBarra{
+    font-size: 1.1em;
+    line-height: 1;
+}
+
+.dropdown-toggle:after { content: none }
+
+#zaraImg{
+    height: 210px;
+    widows: 140px;
+}

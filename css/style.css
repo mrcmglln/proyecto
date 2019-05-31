@@ -1,0 +1,38 @@
+.form-group .form-control {
+    padding-left: 2.375rem;
+    border-radius: 1rem;
+}
+
+.form-group .form-control-icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+#logoEmpresa{
+    display: inline-block;
+}
+
+#NombreEmpresa{
+    display: inline-block;
+}
+
+#miniSo{
+    height: 75px;
+    width: 75px;
+}
+
+.nav-link:after {
+	content: "|";
+	color: black;
+	display: inline-block;
+	font-size: 100%;
+	padding: 0 .5em;
+}
+
